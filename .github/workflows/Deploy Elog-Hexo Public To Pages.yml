@@ -2,6 +2,7 @@ name: Deploy Elog-Hexo Public To Pages
 
 on:
   repository_dispatch:
+    types: [yuque]
   workflow_dispatch:
   push:
     branches: master

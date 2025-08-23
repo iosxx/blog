@@ -1,5 +1,4 @@
 ---
-title: 哔哔点啥
-layout: bb
-published: false
+title: "哔哔点啥"
+layout: "bb"
 ---

@@ -1,0 +1,26 @@
+{{ $dbUrl := .Get 0 }}
+{{ $dbApiUrl := "https://dbapi.immmmm.com/" }}
+{{ $dbItem := "" }}
+
+{{ if ( findRE `^https\:\/\/.*\.douban\.com\/.*` $dbUrl ) }}
+    {{ $dbItem = replaceRE `https\:\/\/(book|movie)\.douban\.com/subject/([0-9]+)/` "$1/$2" $dbUrl }}
+{{ end }}
+
+{{ $dbFetch := getJSON $dbApiUrl $dbItem}}
+{{ if $dbFetch }}
+    {{ $itemRating := default 0 (float $dbFetch.douban_score) }}
+    <div class="db-card">
+        <div class="db-card-subject">
+            <div class="db-card-post"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="{{ $dbFetch.poster }}"></div>
+            <div class="db-card-content">
+                <div class="db-card-title"><a href="{{ $dbFetch.link }}" class="cute" target="_blank" rel="noreferrer">{{ $dbFetch.name }}</a></div>
+                <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
+                <div class="db-card-abstract">{{ $dbFetch.card_subtitle }}</div>
+            </div>
+            <div class="db-card-cate">{{ $dbFetch.type }}</div>
+        </div>
+    </div>
+{{else}}
+    <p style="text-align: center;"><small>远程获取内容失败，请检查 API 有效性。</small></p>
+{{end}}
+

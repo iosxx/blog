@@ -1,8 +1,8 @@
-baseURL  =  "https://immmmm.com"
+baseURL  =  "https://blog.g0f.cn"
 languageCode = "zh-CN"
 # DefaultContentLanguage = "zh-CN"
-title  =  "木木木木木"
-subtitle = "不问明天，悠然浪费"
+title  =  "干0饭blog"
+subtitle = "干饭人的日常吐槽"
 
 
 theme  =  "hello-friend"
@@ -21,32 +21,37 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
 
 [menu]
   [[menu.main]]
-  name="哔哔"
+  name="👨🏻‍💻哔哔"
   url="/bbs/"
   weight="1"
   [[menu.main]]
-  name="友圈"
+  name="🏖友圈"
   url="/friends/"
   weight="2"
   [[menu.main]]
-  name="好物"
+  name="📚好物"
   url="/goods/"
   weight="3"
   [[menu.main]]
-  name="归档"
+  name="🖌️胶囊"
   url="/archives/"
   weight="4"
   [[menu.main]]
-  name="导航"
-  url="https://edui123.com/"
+  name="🎨导航"
+  url="https://93665.xin/"
   weight="5"
   [[menu.main]]
-  name="关于"
+  name="🖼️关于"
   url="/about/"
   weight="6"
+  [[menu.main]]
+  name="🔍搜索"
+  url="/search/"
+  weight="7"
+  
 
 [Author]
-  name = "林木木"
+  name = "naive"
   
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -64,7 +69,7 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
 
-  EditPath = 'https://github.com/lmm214/immmmm/edit/master/content'
+  EditPath = 'https://github.com/iosxx/blog/edit/master/content'
 
 [markup]
   [markup.goldmark]

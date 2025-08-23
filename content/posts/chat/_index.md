@@ -1,4 +1,4 @@
 ---
-title: "词穷"
-slug: "chat"
+title: 碎碎念
+slug: chat
 ---

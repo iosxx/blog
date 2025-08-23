@@ -1,4 +1,4 @@
 ---
-title: "育人"
+title: "学习"
 slug: "reading"
 ---

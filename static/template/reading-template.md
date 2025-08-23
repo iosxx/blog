@@ -1,8 +1,13 @@
 ---
-title: "<% tp.file.cursor() %>"
-date: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZZ") %>
-tags: [育人]
-feature: 
+title: "{{title}}"
+date: "{{date}}"
+tags:
+  - 学习
+feature:
+published: true
+hideInList: false
+isTop: false
 ---
 
 
+<!--more-->

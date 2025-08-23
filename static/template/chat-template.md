@@ -1,7 +1,12 @@
 ---
-title: "<% tp.file.cursor() %>"
-date: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZZ") %>
-tags: [词穷]
+title: "{{title}}"
+date: "{{date}}"
+tags:
+  - 碎碎念
+published: true
+hideInList: false
+isTop: false
 ---
+<!--more-->
 
 

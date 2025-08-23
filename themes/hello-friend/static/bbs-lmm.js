@@ -24,7 +24,7 @@ const cdnGravatar = "https://cravatar.cn/avatar/"
 let urls = [
   {
     home:"https://immmmm.com/",
-    host:"https://me.edui.fun/",
+    host:"https://memos.tangguo.life/",
     creatorId:"101",
     twiEnv:"https://metk.edui.fun/",
     imgsrc:cdnGravatar+"ba83fa02fc4b2ba621514941307e21be",

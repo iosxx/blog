@@ -32,10 +32,10 @@
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.5/plugin/relativeTime.js"></script>
 <script>dayjs.locale('zh-cn');dayjs.extend(window.dayjs_plugin_relativeTime)</script>
 <script>
-var memos = "https://me.edui.fun/";
+var memos = "https://memos.tangguo.life/";
 var limit = 10;
 var count=0,page = 1,offset = limit*(page-1);
-var bbUrl = memos+"api/memo?creatorId=101&rowStatus=NORMAL";
+var bbUrl = memos+"api/memo?creatorId=1&rowStatus=NORMAL";
 var bbDom = document.querySelector('#bber');
 var load = '<div class="load"><button class="load-btn button-load">加载中……</button></div>'
 bbDom.insertAdjacentHTML('afterend', load);
@@ -48,7 +48,7 @@ fetch(bbUrl).then(res => res.json()).then( resdata =>{
 });
 
 function getList(){
-  var bbUrl = memos+"api/memo?creatorId=101&rowStatus=NORMAL&limit="+limit+"&offset="+offset;
+  var bbUrl = memos+"api/memo?creatorId=1&rowStatus=NORMAL&limit="+limit+"&offset="+offset;
   console.log(limit+"条/页------现第"+page+"页--————---偏移"+offset)
   if((page-1)*limit >= count){
     return

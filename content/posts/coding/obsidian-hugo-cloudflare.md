@@ -73,7 +73,7 @@ termux-setup-storage`
 
 大致修改就可以把文件通过git插件上传到github
 然后发布即可
-林木木木木木大佬这个主要是发布到cloudflare ，选择hugo程序发布，版本选0.92.0
+林木木木木木大佬这个主要是发布到cloudflare ，选择hugo程序发布，添加变量HUGO_VERSION ＝ 0.92.0
 这个主要根本[使用 Obsidian 一键发布博客 \| 蓝色大树🌲 — Yao's Blog](https://yaofun.top/posts/2024/03/%E4%BD%BF%E7%94%A8-obsidian-%E4%B8%80%E9%94%AE%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2/)大佬提供的教程，他也开源了，也可以选择
 
 然后蜗牛大佬的发布方式主要是用github action，想要多元化的方式建议用这个貌似有edgeone，cloudflare，还有github pages，喜欢其他的也可以自己加

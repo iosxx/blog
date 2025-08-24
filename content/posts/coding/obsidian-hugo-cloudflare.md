@@ -3,16 +3,18 @@ title: "obsidian手机搭建hugo"
 date: "2025-08-24T04:38:46+0800"
 tags:
   - 鼓捣
-feature: "https://images.unsplash.com/photo-1641440616490-723c8cc161b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw3fHxodWdvfGVufDB8MHx8fDE3NTU4OTUxNDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+feature: "https://images.unsplash.com/photo-1703085467946-8fba54ce6dd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlOTklRTclQTglOEJ8ZW58MHwwfHx8MTc1NjAxNzA2Mnww&ixlib=rb-4.1.0&q=80&w=1080"
 published: true
 hideInList: false
 isTop: false
 ---
+
 这应该是就目前为止最全面的obsidian搭建博客的教程了，全程手机操作
 <!--more-->
 
 
 ![](images/79cdd80adcfa291bd063f1fa9b0c7926.webp)
+
 
 先说好，我是邪修
 正道人士退避

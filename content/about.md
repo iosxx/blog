@@ -5,7 +5,7 @@ layout: 'posts'
 ---
 # 关于本博客
 
-再次无限感谢木木木木木大佬
+在此无限感谢木木木木木大佬
 
 hugo：https://gohugo.io
 主题：林木木 修改后的主题 hello-friend
@@ -17,8 +17,8 @@ obsidian手机+hugo+cloudflare
 [GitHub - iosxx/blog](https://github.com/iosxx/blog.git)
 {{< friends >}}
 
-快速上手教程：![obsidian-hugo-cloudflare](content/posts/coding/obsidian-hugo-cloudflare.md)
-
+快速上手教程
+[obsidian手机搭建hugo :: 干0饭](https://blog.g0f.cn/obsidian-hugo-cloudflare/)
 
 ### 欢迎打赏
 

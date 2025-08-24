@@ -3,11 +3,12 @@ title: "图片展览"
 date: 2025-08-24T09:20:26+0800
 tags:
   - 日常
-feature:
+feature: "https://images.unsplash.com/photo-1644150781380-ea91ba2f5a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw2fHwlRTUlOUIlQkUlRTclODklODd8ZW58MHwwfHx8MTc1NjAxNzE4MXww&ixlib=rb-4.1.0&q=80&w=1080"
 published: true
 hideInList: false
 isTop: false
 ---
+
 这是个图片主题，想换掉木木大佬的相册，
 测试下我的半吊子memos行不行
 <!--more-->

@@ -14,7 +14,7 @@ isTop: false
 
 最近发现个挺不错的省电方法
 先说最主要的，可能好多人都不知道
-1.开发者选项有个省电模式![|313x684](static/images/Screenshot_20250911_133803_com_android_settings_Settings$DevelopmentSettingsActivi.jpg)
+1.开发者选项有个省电模式![|313x684](/images/Screenshot_20250911_133803_com_android_settings_Settings$DevelopmentSettingsActivi.jpg)
 
 大概就是这个，实际效果不祥，嫌麻烦的可以不开
 别看我电量，这是昨天晚上的充的
@@ -22,11 +22,11 @@ isTop: false
 2.今天主要想说这个
 用手机自带的自动任务app（我相信你们能找到呦）
 例如我的荣耀手机就是荣耀智慧空间
-![](static/images/Screenshot_20250911_133722_com_hihonor_magichome_SceneDetailActivity.jpg)
+![](/images/Screenshot_20250911_133722_com_hihonor_magichome_SceneDetailActivity.jpg)
 
 类似这样，当你的电量小于100的时候就开始省电模式，也就是一直开启省电模式，不嫌麻烦你也可以手动在电池里开启
 
-![|313x684](static/images/Screenshot_20250911_134512_com_hihonor_systemmanager_MoreMessageActivity.jpg)
+![|313x684](/images/Screenshot_20250911_134512_com_hihonor_systemmanager_MoreMessageActivity.jpg)
 省电模式大概是这样的，可以确定是百分之1w省电的，个人感觉可以接受这些关闭。
 
 剩下的基本上嫌麻烦就别弄了，具体过程可以百度搜下

@@ -3,7 +3,7 @@ title: 豆包生成手办图片提示词
 date: 2025-09-10T19:14:37+0800
 tags:
   - 日常
-feature: /images/1757502963200.png
+feature: /images/1758211420459.webp
 published: true
 hideInList: false
 isTop: false

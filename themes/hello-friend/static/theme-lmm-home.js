@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 var bbDom = document.querySelector('#bber-talk') || '';
 if(bbDom){memoTalks();}
 function memoTalks(){
-var bbUrl = "https://memos.tangguo.life/api/v1/memo?creatorId=1&rowStatus=NORMAL&limit=10"
+var bbUrl = "https://memo.g0f.cn/api/v1/memo?creatorId=1&rowStatus=NORMAL&limit=10"
 fetch(bbUrl).then(res => res.json()).then( resdata =>{
     var result = '',resultAll="",data = resdata
     for(var i=0;i < data.length;i++){
@@ -30,7 +30,7 @@ setInterval(function() {
 }
 //memos 相册
 var albumDom = document.querySelector('#album') || '';
-var memoUrl = "https://memos.tangguo.life/"
+var memoUrl = "https://memo.g0f.cn/"
 if(albumDom){memoAlbum(6);}
 function memoAlbum(numb){
     let limit = numb || 8;

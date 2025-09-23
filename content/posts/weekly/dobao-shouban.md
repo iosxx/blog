@@ -3,11 +3,12 @@ title: 豆包生成手办图片提示词
 date: 2025-09-10T19:14:37+0800
 tags:
   - 日常
-feature: /images/1758211420459.webp
+feature: "https://images.unsplash.com/photo-1556747439-3b96858b9d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyfHwlRTUlQjAlOEYlRTUlQTclOTAlRTUlQTclOTB8ZW58MHwwfHx8MTc1ODYyNzIxOHww&ixlib=rb-4.1.0&q=80&w=1080"
 published: true
 hideInList: false
 isTop: false
 ---
+
 豆包生成手办图片提示词
 <!--more-->
 ![|313x431](/images/share_bdb58cd57645e965bded8de8e8eb6fdf.webp)

@@ -28,9 +28,9 @@ obsidian手机+hugo+cloudflare
 1.github提交[友链提交](https://github.com/iosxx/blog/blob/master/static/friends.json)
 2.直接在下方留言新增
 请按照下方格式
-`{
+        {
             "name": "干饭圈",
             "url": "https://blog.g0f.vn/",
             "md5": "ec9435af3f1cd6d7fca626d64992817c" ,
             "des": "" 
-        },`
+        }

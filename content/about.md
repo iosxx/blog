@@ -16,6 +16,7 @@ obsidian手机+hugo+cloudflare
 林木木大佬的源码[GitHub - lmm214/immmmm](https://github.com/lmm214/immmmm)
 本站源码：
 [GitHub - iosxx/blog](https://github.com/iosxx/blog.git)
+
 {{< friends >}}
 
 快速上手教程
@@ -28,6 +29,7 @@ obsidian手机+hugo+cloudflare
 
 提交友链地址：
 1.github提交[友链提交](https://github.com/iosxx/blog/blob/master/static/friends.json)
+
 2.直接在下方留言新增
 请按照下方格式
 

@@ -22,8 +22,15 @@ obsidian手机+hugo+cloudflare
 
 ### 欢迎打赏
 
+![](https://jsdelivr.topthink.com/gh/iosxx/blog@master/static/images/mm_reward_qrcode_1758626152222.webp)
 
-<figure>
-    <img src="![](/images/mm_reward_qrcode_1758626152222.png)" alt="微信打赏" />
-    <figcaption>微信打赏</figcaption>
-</figure>
+提交友链地址：
+1.github提交[友链提交](https://github.com/iosxx/blog/blob/master/static/friends.json)
+2.直接在下方留言新增
+请按照下方格式
+`{
+            "name": "干饭圈",
+            "url": "https://blog.g0f.vn/",
+            "md5": "ec9435af3f1cd6d7fca626d64992817c" ,
+            "des": "" 
+        },`

@@ -24,6 +24,6 @@ obsidian手机+hugo+cloudflare
 
 
 <figure>
-    <img src="/images/mm_reward_qrcode_1756017253855.png" alt="微信打赏" />
+    <img src="![](images/mm_reward_qrcode_1758626152222.png)" alt="微信打赏" />
     <figcaption>微信打赏</figcaption>
 </figure>

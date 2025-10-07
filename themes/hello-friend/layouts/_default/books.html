@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="post">
+  <h2 class="post-title">{{.Title}}</h2>
+  <div class="lg:col-start-2 lg:col-span-6">
+  {{$movieitems := getJSON "https://dbapi.immmmm.com/list?type=book" }}
+  <div class="sc-ksluID gFnzgG">
+    <div class="items sc-dIsUp fIuTG">
+      {{range $item := $movieitems.results}}
+        {{ $itemRating := default 0 (float $item.douban_score) }}
+        <div class="dfdORB">
+          <div class="sc-hKFxyN HPRth"><div class="lazyload-wrapper"><img class="avatar" src="{{ $item.poster }}" referrer-policy="no-referrer" loading="lazy" alt=""  title="{{ $item.name }}" width="150" height="220"></div></div>
+          <div class="sc-fujyAs eysHZq">
+              <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{ mul 10 $itemRating }}%"></span></span><span class="rating_nums">{{ $itemRating }}</span></div>
+          </div>
+          <div class="sc-iCoGMd kMthTr"><a rel="noreferrer" href="{{ $item.link }}" target="_blank">{{ $item.name }}</a></div>
+        </div>
+      {{end}}
+    </div>
+  </div>
+
+</div>
+
+</div>
+{{ end }}
+
+{{ define "footer" }}
+<script type="text/javascript" src="/theme-main-1.js"></script>
+{{ end }}

@@ -1,0 +1,7 @@
+.gitignore
+public
+.obsidian
+.hugo_build.lock
+.trash
+*.bak
+/static/template/
